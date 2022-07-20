@@ -1,0 +1,37 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/list/list",
+        "pages/edit/edit"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#FAE8B6"
+    },
+    "tabBar": {
+        "color": "#7a7a7a",
+        "selectedColor": "#007aff",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "black",
+        "position": "bottom",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "我的转盘",
+                "iconPath": "images/icon_tab_index_81.png",
+                "selectedIconPath": "images/icon_tab_index_select_81.png"
+            },
+            {
+                "pagePath": "pages/list/list",
+                "text": "切换选择",
+                "iconPath": "images/icon_tab_list_81.png",
+                "selectedIconPath": "images/icon_tab_list_select_81.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}
